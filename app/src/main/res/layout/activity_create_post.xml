@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".CreatePostActivity"
+android:orientation="vertical"
+android:padding="5dp"
+    >
+
+
+<TextView
+    android:id="@+id/txt"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Create Post"
+    android:textSize="20dp"
+    android:textAlignment="center"
+    android:textColor="#ffffff"
+    android:background="#536EA1"
+    android:fontFamily="sans-serif-condensed"
+    android:padding="5dp"/>
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="SUBJECT"/>
+<EditText
+    android:id="@+id/sub"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    />
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="DESCRIPTION"
+    android:lines="3"/>
+<EditText
+    android:id="@+id/desc"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textMultiLine"/>
+
+<TextView
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="DATE"/>
+
+<CalendarView
+    android:id="@+id/date"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"></CalendarView>
+<Button
+    android:id="@+id/submit"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:text="SAVE"
+    android:background="#99ABCD"    />
+
+</LinearLayout>
+    </ScrollView>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FullPostActivity"
+    android:orientation="vertical"
+    >
+
+
+        <TextView
+            android:id="@+id/sub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:background="#536EA1"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="5dp"
+            android:textColor="#ffffff"/>
+
+
+        <RelativeLayout
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content">
+
+                <TextView
+                        android:id="@+id/date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="15dp"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginTop="20dp"
+                        android:text="Relative Text 1"
+                        android:textStyle="bold"
+                    android:layout_marginLeft="10dp"/>
+
+
+                <TextView
+                        android:id="@+id/counter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:textSize="15dp"
+                        android:fontFamily="sans-serif"
+                        android:layout_marginTop="20dp"
+                        android:text="relative text 2"
+                        android:textStyle="bold"
+                    android:layout_marginRight="10dp"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:lines="10"
+            android:layout_marginTop="40dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="Description"
+            android:padding="20dp"/>
+
+
+          <Button
+              android:id="@+id/dlt"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="DELETE"
+              android:background=" #f1e3dd"
+              android:textSize="15dp"/>
+
+
+
+</LinearLayout>
